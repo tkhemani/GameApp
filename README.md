@@ -29,3 +29,9 @@ Run `ng github-pages:deploy` to deploy to Github Pages.
 ## Further help
 
 To get more help on the `angular-cli` use `ng --help` or go check out the [Angular-CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Update
+
+Install [npm-check](https://www.npmjs.com/package/npm-check) and run `npm-check -u` to choose what packages to Update
+
+As an alternate you may install it's [webpack plugin](https://www.npmjs.com/package/npm-check-webpack-plugin), but it seems like a overkill to me at this time.
