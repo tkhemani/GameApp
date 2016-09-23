@@ -6,26 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'testing dev changes!';
- printDelayed = async function(elements: string[]) {
-    for (const element of elements) {
-        await this.delay(2000);
-        console.log(element);
-    }
-}
+  isDarkTheme: boolean = false;
 
-delay = async function (milliseconds: number) {
-    return new Promise<void>(resolve => {
-        setTimeout(resolve, milliseconds);
-    });
-}
+  foods: any[] = [
+    {name: 'Pizza', rating: 'Excellent'},
+    {name: 'Burritos', rating: 'Great'},
+    {name: 'French fries', rating: 'Pretty good'},
+  ];
 
-constructor(){
-  this.printDelayed(["Hello", "beautiful", "asynchronous", "world"]).then(() => {
-  console.log();
-    console.log("Printed every element!");
-});
-}
+  progress: number = 0;
 
-
+  constructor() {
+    // Update the value for the progress-bar on an interval.
+    setInterval(() => {
+      this.progress = (this.progress + Math.floor(Math.random() * 4) + 1) % 100;
+    }, 200);
+  }
 }

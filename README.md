@@ -35,3 +35,13 @@ To get more help on the `angular-cli` use `ng --help` or go check out the [Angul
 Install [npm-check](https://www.npmjs.com/package/npm-check) and run `npm-check -u` to choose what packages to Update
 
 As an alternate you may install it's [webpack plugin](https://www.npmjs.com/package/npm-check-webpack-plugin), but it seems like a overkill to me at this time.
+
+## What's next
+
+1. ~~Explore CLI features like creating new routes, components~~
+1. ~~Explore Angular Material 2~~
+1. Explore testing
+1. Create app using Rx-Redux
+1. Build heroes app from angular.io 
+1. Rewrite old Game App with Poker
+1. Deploy to **github-pages**
