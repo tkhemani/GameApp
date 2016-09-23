@@ -5,6 +5,8 @@
   "angular-cli": {},
   "scripts": {
     "start": "ng serve",
+    "start:hmr": "npm run server:dev -- --env.HMR",
+    "server:dev": "webpack-dev-server --env.ENV development",
     "lint": "tslint \"src/**/*.ts\"",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
@@ -46,6 +48,8 @@
     "@angular2-material/tabs": "experimental",
     "@angular2-material/toolbar": "experimental",
     "@angular2-material/tooltip": "experimental",
+    "@angularclass/hmr": "^1.2.1",
+    "@angularclass/hmr-loader": "^3.0.2",
     "@types/hammerjs": "^2.0.32",
     "@types/jasmine": "^2.2.30",
     "angular-cli": "1.0.0-beta.14",

@@ -41,7 +41,8 @@ As an alternate you may install it's [webpack plugin](https://www.npmjs.com/pack
 1. ~~Explore CLI features like creating new routes, components~~
 1. ~~Explore Angular Material 2~~
 1. Explore testing
-1. Create app using Rx-Redux
+1. Create app using (ngRx)[https://www.youtube.com/watch?v=mhA7zZ23Odw]
+1. Explore HMR and other features from (Webpack Starter)[https://github.com/AngularClass/angular2-webpack-starter]
 1. Build heroes app from angular.io 
 1. Rewrite old Game App with Poker
 1. Deploy to **github-pages**
